@@ -12,6 +12,6 @@ takeInput(22);
 function twoSum(a: number, b: number) {
   return a + b;
 }
-
+// we
 // typescript provides some basic type :-
 // number, string, boolean, null, undefined
