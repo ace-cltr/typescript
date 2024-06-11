@@ -34,3 +34,18 @@ taker(function () {
 
 // typescript provides some basic type :-
 // number, string, boolean, null, undefined
+
+// interface in ts :-
+
+interface User {
+  name: String;
+  age: number;
+}
+
+function takeObj(user: User) {
+  if (user.age > 18) {
+    console.log("you can vote");
+  }
+}
+
+takeObj({ name: "anand", age: 19 });
