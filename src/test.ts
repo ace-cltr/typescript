@@ -38,13 +38,13 @@ taker(function () {
 // interface in ts :-
 
 interface User {
-  name: String;
+  name?: string;
   age: number;
 }
 
 function takeObj(user: User) {
   if (user.age > 18) {
-    console.log("you can vote");
+    console.log("you can vote" + user.name);
   }
 }
 
