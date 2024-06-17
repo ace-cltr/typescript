@@ -17,6 +17,10 @@ function twoSum(a: number, b: number): number {
   return a + b;
 }
 
+function helloWorld(name: () => void) {
+  console.log("hello have a great day");
+}
+
 // another example
 function isLegal(age: number): boolean {
   if (age > 18) return true;
@@ -49,3 +53,9 @@ function takeObj(user: User) {
 }
 
 takeObj({ name: "anand", age: 19 });
+
+function takeArr(arr: number[]) {
+  console.log(arr);
+}
+
+takeArr([1, 3, 5, 3]);
